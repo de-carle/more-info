@@ -10,6 +10,10 @@
     --mustard: rgb(230, 190, 17);
 }
 
+i {
+    font-style: italic;
+}
+
 html {
     font-family: serif;
     font-size: 4vh;
@@ -22,26 +26,23 @@ body {
 .half-screen {
     height: 50vh;
     position: relative;
-
-    background: rgb(128, 99, 99);
 }
 
 h1 {
     font-size: 1.8rem;
     position: absolute;
-    left: 1rem;
+    left: 0;
     bottom: 0;
+    margin-left: 1rem;
 
-    background: white;
 }
 
 h3 {
     font-size: 3vh;
     position: absolute;
     top: 0;
-    left: 1rem;
-
-    background: blue;
+    left: 0;
+    margin-left: 1rem;
 }
 
 .scroll-container {
@@ -52,7 +53,8 @@ h3 {
 
 .item {
     position: relative;
-    height: 100vh;
+    min-height: 100vh;
+    height: 100%;
     margin-bottom: 50vh;
     background: rgb(197, 97, 197);
 }
