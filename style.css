@@ -52,12 +52,13 @@ h3 {
     margin: auto;
     display: flex;
     flex-direction: column;
-    gap: 50vh;
+
 
 }
 
 .item {
     min-height: 100vh;
+    margin-bottom: 50vh;
     background: rgb(118, 212, 196);
 }
 
@@ -101,4 +102,5 @@ a {
     margin: auto;
     color: white;
     background: green;
+    box-shadow: 2px 2px 2px 2px rgb(0, 0, 0);
 }
