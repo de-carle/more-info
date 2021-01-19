@@ -7,7 +7,8 @@
 }
 
 :root {
-    --mustard: rgb(230, 190, 17);
+    --yelo: rgb(230, 190, 17);
+    --orange: orange;
 }
 
 i {
@@ -15,12 +16,12 @@ i {
 }
 
 html {
-    font-family: serif;
+    font-family: Helvetica, sans-serif;
     font-size: 4vh;
 }
 
 body {
-    background: var(--mustard);
+    background: var(--yelo);
 }
 
 .half-screen {
@@ -40,7 +41,7 @@ h1 {
 h3 {
     font-size: 3vh;
     position: absolute;
-    top: 0;
+    top: 30%;
     left: 0;
     margin-left: 1rem;
 }
@@ -49,28 +50,55 @@ h3 {
     max-width: 700px;
     width: 100vw;
     margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 50vh;
+
 }
 
 .item {
-    position: relative;
     min-height: 100vh;
-    height: 100%;
-    margin-bottom: 50vh;
-    background: rgb(197, 97, 197);
+    background: rgb(118, 212, 196);
 }
 
 h2 {
     font-size: 1.3rem;
-    position: absolute;
-    top: 30%;
-    left: 50%;
-    transform: translateY(-50%) translateX(-50%);
+    margin-top: 30vh;
     text-align: center;
-    background: orange;
+    background: var(--orange);
 }
 
 .more-info {
-    position: absolute;
-    top: 55%;
-    margin: 0 1rem;
+    margin: 15vh 1rem;
+    letter-spacing: 0.03rem;
+    line-height: 1.5rem;
+}
+
+#top {
+    background: none;
+}
+
+.action-card {
+    padding: 10vh 1rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+.action-p {
+    margin-top: 2rem;
+    line-height: 1.5rem;
+}
+
+.apply-now-btn {
+    display: block;
+    font-weight: bold;
+    padding: 1rem;
+    text-align: center;
+    border-radius: 1rem;
+    width: 8rem;
+    margin: auto;
+    color: white;
+    background: green;
 }
