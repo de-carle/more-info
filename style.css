@@ -138,3 +138,9 @@ a:visited {
     background: green;
     box-shadow: 2px 2px 2px 2px rgb(0, 0, 0);
 }
+#apply:visited {
+    color: white;
+}
+b {
+    font-weight: bold;
+}
